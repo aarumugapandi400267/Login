@@ -13,7 +13,7 @@ const userSchema = mongoose.Schema({
     email:String,
     password:String,
     dob:Date,
-    gender:String,
+    gender:String, 
 });
 const User = mongoose.model('userregistrations', userSchema); 
 
